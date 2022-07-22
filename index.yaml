@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  home-assistant:
+  - apiVersion: v2
+    appVersion: 0.114.0
+    created: "2022-07-22T13:43:37.824196242Z"
+    description: Home Assistant
+    digest: 31565816c7fc09a266a0f4a70fa6ed10d9d6bc6e4276d9828afcde24dfc12227
+    home: https://github.com/billimek/billimek-charts/tree/master/charts/home-assistant
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Home_Assistant_Logo.svg/519px-Home_Assistant_Logo.svg.png
+    keywords:
+    - home-assistant
+    - hass
+    - homeassistant
+    name: home-assistant
+    sources:
+    - https://github.com/home-assistant/home-assistant
+    - https://github.com/danielperna84/hass-configurator
+    - https://github.com/cdr/code-server
+    - https://github.com/billimek/billimek-charts/tree/master/charts/home-assistant
+    urls:
+    - https://github.com/codingric/helm-charts/releases/download/home-assistant-1.2.1/home-assistant-1.2.1.tgz
+    version: 1.2.1
+generated: "2022-07-22T13:43:37.824211442Z"

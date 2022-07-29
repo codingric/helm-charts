@@ -24,6 +24,24 @@ entries:
   octoprint:
   - apiVersion: v1
     appVersion: 1.8.1
+    created: "2022-07-29T10:46:24.912297803Z"
+    description: OctoPrint helm chart, modified to be deployed into Raspberry Pi K3s
+      cluster
+    digest: 3f4f5c251fdd995eb4175931656d4c15898e5a30b3a640253209fee11d07a3b2
+    home: https://octoprint.org/
+    icon: https://octoprint.org/assets/img/logo.png
+    maintainers:
+    - email: ricardo@salinas.id.au
+      name: Ricardo Salinas
+    name: octoprint
+    sources:
+    - https://github.com/foosel/OctoPrint
+    - https://hub.docker.com/r/octoprint/octoprint
+    urls:
+    - https://github.com/codingric/helm-charts/releases/download/octoprint-0.4/octoprint-0.4.tgz
+    version: "0.4"
+  - apiVersion: v1
+    appVersion: 1.8.1
     created: "2022-07-29T10:13:46.504102463Z"
     description: OctoPrint helm chart, modified to be deployed into Raspberry Pi K3s
       cluster
@@ -58,4 +76,4 @@ entries:
     urls:
     - https://github.com/codingric/helm-charts/releases/download/octoprint-0.2/octoprint-0.2.tgz
     version: "0.2"
-generated: "2022-07-29T10:13:46.504110363Z"
+generated: "2022-07-29T10:46:24.912307703Z"

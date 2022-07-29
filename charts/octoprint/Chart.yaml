@@ -1,0 +1,13 @@
+apiVersion: v1
+appVersion: "1.8.1"
+description: OctoPrint helm chart, modified to be deployed into Raspberry Pi K3s cluster
+name: octoprint
+version: 0.2
+home: https://octoprint.org/
+icon: https://octoprint.org/assets/img/logo.png
+sources:
+  - https://github.com/foosel/OctoPrint
+  - https://hub.docker.com/r/octoprint/octoprint
+maintainers:
+  - name: Ricardo Salinas
+    email: ricardo@salinas.id.au

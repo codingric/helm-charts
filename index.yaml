@@ -21,4 +21,23 @@ entries:
     urls:
     - https://github.com/codingric/helm-charts/releases/download/home-assistant-1.2.1/home-assistant-1.2.1.tgz
     version: 1.2.1
-generated: "2022-07-22T13:43:37.824211442Z"
+  octoprint:
+  - apiVersion: v1
+    appVersion: 1.8.1
+    created: "2022-07-29T06:35:04.549284084Z"
+    description: OctoPrint helm chart, modified to be deployed into Raspberry Pi K3s
+      cluster
+    digest: 0b29d5450bfa0ab870ae3a11311245243f6bd95aee5f51c166d9eb7f987012c0
+    home: https://octoprint.org/
+    icon: https://octoprint.org/assets/img/logo.png
+    maintainers:
+    - email: ricardo@salinas.id.au
+      name: Ricardo Salinas
+    name: octoprint
+    sources:
+    - https://github.com/foosel/OctoPrint
+    - https://hub.docker.com/r/octoprint/octoprint
+    urls:
+    - https://github.com/codingric/helm-charts/releases/download/octoprint-0.2/octoprint-0.2.tgz
+    version: "0.2"
+generated: "2022-07-29T06:35:04.549295184Z"
